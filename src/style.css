@@ -1,1 +1,71 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #f5f5f5;
+  font: 14px Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+section {
+  display: block;
+  position: relative;
+}
+
+.main {
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+}
+
+.todo-app {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 2px 4px 0;
+}
+
+header {
+  display: block;
+}
+
+h1 {
+  position: relative;
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+  color: #75435c;
+  display: block;
+  font-size: 2cm;
+}
+
+ul {
+  background: white;
+  color: black;
+  margin: auto;
+  width: 60%;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: none;
+}
+
+.button-remove {
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  color: lightcoral;
+  align-items: center;
+  font-size: 25px;
+  top: 0px;
+  cursor: pointer;
+}
